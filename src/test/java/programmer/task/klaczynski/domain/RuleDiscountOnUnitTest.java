@@ -66,7 +66,6 @@ public class RuleDiscountOnUnitTest {
         assertEquals(new BigDecimal(4.13).setScale(2, RoundingMode.HALF_UP), checkout.calculateSubTotal(avocado, new BigDecimal(7), offers));
 
 
-
     }
 
 }

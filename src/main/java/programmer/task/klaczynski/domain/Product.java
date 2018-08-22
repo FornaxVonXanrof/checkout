@@ -2,7 +2,7 @@ package programmer.task.klaczynski.domain;
 
 import java.math.BigDecimal;
 
-public class Product{
+public class Product {
 
     private int sku;
     private String name;

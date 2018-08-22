@@ -40,7 +40,6 @@ public class CheckoutTest {
         assertEquals(new BigDecimal(3), checkout.calculateSubTotal(avocado, new BigDecimal(1), offers));
 
 
-
     }
 
 }

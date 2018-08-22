@@ -13,7 +13,7 @@ public class RuleDiscountOnUnit implements Rule {
     private int amount;
     private BigDecimal specialPrice;
 
-    public BigDecimal getSubTotalWithDiscount(Product product, BigDecimal quantity){
+    public BigDecimal getSubTotalWithDiscount(Product product, BigDecimal quantity) {
         return this.specialPrice.multiply(quantity).setScale(2, RoundingMode.HALF_UP);
     }
 

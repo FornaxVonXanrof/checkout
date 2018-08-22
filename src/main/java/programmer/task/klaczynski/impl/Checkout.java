@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class Checkout {
 
-    public BigDecimal calculateSubTotal(Product product, BigDecimal quantity, Map<Product,Rule> offers) {
+    public BigDecimal calculateSubTotal(Product product, BigDecimal quantity, Map<Product, Rule> offers) {
 
         if (!offers.containsKey(product.getSku())) {
 
