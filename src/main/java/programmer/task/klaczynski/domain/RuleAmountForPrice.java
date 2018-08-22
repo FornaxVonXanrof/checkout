@@ -20,6 +20,8 @@ public class RuleAmountForPrice implements Rule {
      * @param quantity of the product that has been scanned
      * @return
      */
+
+
     public BigDecimal getSubTotalWithDiscount(Product product, BigDecimal quantity) {
 
         int tempQuantity = quantity.intValue() / this.amount;
