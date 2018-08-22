@@ -25,26 +25,21 @@ public class Main {
         offers.put(orange.getSku(), rule2);
         offers.put(orange.getSku(), rule3);
 
-//        Checkout checkout = new Checkout(apple, new BigDecimal(3), offers);
         Checkout checkout = new Checkout();
-//        Checkout checkout = new Checkout(orange,new BigDecimal(11), offers);
         System.out.println(checkout.calculateSubTotal(apple, new BigDecimal(3), offers));
         System.out.println(checkout.calculateSubTotal(apple, new BigDecimal(5), offers));
         System.out.println(checkout.calculateSubTotal(apple, new BigDecimal(10), offers));
-//
-//        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(3), offers));
-//        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(6), offers));
-//        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(9), offers));
-//        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(12), offers));
 
-//        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(2), offers));
-//        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(5), offers));
-//        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(7), offers));
-//        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(9), offers));
-//        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(11), offers));
+        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(3), offers));
+        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(6), offers));
+        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(9), offers));
+        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(12), offers));
 
-//        System.out.println(checkout.calculateSubTotal());
-
+        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(2), offers));
+        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(5), offers));
+        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(7), offers));
+        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(9), offers));
+        System.out.println(checkout.calculateSubTotal(orange, new BigDecimal(11), offers));
 
 
     }
